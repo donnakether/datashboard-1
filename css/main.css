@@ -25,6 +25,22 @@ header {
   top: 15px;
 }
 
+.box-nav3 {
+  position: absolute;
+  right: 1200px;
+  top: 10px;
+}
+
+.box-usuaria {
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+}
+
+h1{
+  font-size: 15px;
+  color: #000000;
+}
 .out {
   background-color: #FFE521;
   border-radius: 19px;
@@ -384,28 +400,28 @@ padding: 0.25em;
 }
 
 .box-tech {
-  background-color: #FFB230;
+  background-color: #56F89A;
   float: left;
-  vertical-align: top;
+  vertical-align: center;
   height: 5em;
   margin-right: 2%;
   width: 19%;
   box-sizing: border-box;
   border-radius: 4px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   box-shadow: 1px 2px 1px #949292;
 }
 
 .box-life {
-  background-color: #ED6C44;
+  background-color: #56F89A;
   float: left;
-  vertical-align: top;
+  vertical-align: center;
   height: 5em;
   width: 19%;
   border-radius: 4px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   box-shadow: 1px 2px 1px #949292;
