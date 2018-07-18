@@ -1,4 +1,4 @@
-# PRODUCTO FINAL SPRINT 2: **Data Dashboard**
+# PRODUTO FINAL SPRINT 2: **Data Dashboard**
 
 ## SOBRE O PRODUTO
 Na Laboratoria, as Training Managers (TMs) fazem um ótimo trabalho analisando o máximo de dados possíveis sobre o desempenho das alunas para apoiá-las em sua aprendizagem. Para revisar esses dados, as TMs geralmente precisam verificar muitos documentos do Excel (Google Spreadsheets) localizados em diferentes pastas e locais. Muitas vezes elas perdem tempo localizando esses documentos e executando fórmulas para obter os dados de que precisam.
@@ -46,4 +46,5 @@ Também vamos usar parte do dia como day-off.
 * Segunda-feira vamos nos encontrar na casa da Thatiana para trabalharmos lá no mesmo esquema do sábado, começando às 10h, inicialmente vamos debater o que aprendemos e descobrimos no domingo, e depois passar o resto do dia na revisão do código e dos conflitos que possam surgir, terminando o trabalho previsto às 21h.
 
 ## UX - User Experience
+Experiencia do usuário testando as telas com o uso do aplicativo Marvel.
 https://marvelapp.com/32e8476
