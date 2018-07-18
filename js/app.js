@@ -414,6 +414,9 @@ window.addEventListener('load', function() {
         } else {
           percentTech.textContent = 'Não há dados suficientes';
           percentLife.textContent = 'Não há dados suficientes';
+          lifeSkill.textContent = '';
+          techSkill.textContent = '';
+
         }
       }
     }
