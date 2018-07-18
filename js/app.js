@@ -263,9 +263,10 @@ window.addEventListener('load', function() {
       var options = {'title': 'Avaliação dos jedis',
         'width': 500,
         'height': 300,
-        'is3D': true};
+        'is3D': true,
+        'colors': ['#FF009E']};
 
-      var chart = new google.visualization.PieChart(document.getElementById('jedi-chart'));
+      var chart = new google.visualization.ColumnChart(document.getElementById('jedi-chart'));
       chart.draw(data, options);
 
       // GRÁFICOS DOS MENTORES
@@ -280,9 +281,10 @@ window.addEventListener('load', function() {
       var optionsTwo = {'title': 'Avaliação dos mentores',
         'width': 500,
         'height': 300,
-        'is3D': true};
+        'is3D':true,
+        'colors': ['#FF009E']};
 
-      var chartTwo = new google.visualization.PieChart(document.getElementById('teacher-chart'));
+      var chartTwo = new google.visualization.ColumnChart(document.getElementById('teacher-chart'));
       chartTwo.draw(dataTwo, optionsTwo);
 
       // GRÁFICO DA SATISFAÇÃO DOS ESTUDANTES
@@ -297,9 +299,10 @@ window.addEventListener('load', function() {
       var optionsThree = {'title': 'Expectativas das alunas em relação ao Laboratória',
         'width': 500,
         'height': 300,
-        'is3D': true};
+        'is3D': true,
+        'colors': ['#FF009E']};
 
-      var chartThree = new google.visualization.PieChart(document.getElementById('satisfaction-chart'));
+      var chartThree = new google.visualization.ColumnChart(document.getElementById('satisfaction-chart'));
       chartThree.draw(dataThree, optionsThree);
 
       // GRÁFICOS NPS
@@ -315,7 +318,8 @@ window.addEventListener('load', function() {
       var optionsFuor = {'title': 'Recomendaria a Laboratória a outras pessoas',
         'width': 500,
         'height': 300,
-        'is3D': true};
+        'is3D': true,
+        'colors': [ '#FF009E', '#1E90FF', '#56F89A']};
 
       var chartFuor = new google.visualization.PieChart(document.getElementById('nps-chart'));
       chartFuor.draw(dataFuor, optionsFuor);
@@ -332,7 +336,8 @@ window.addEventListener('load', function() {
       var optionsFive = {'title': 'Frequentes e desistentes',
         'width': 500,
         'height': 300,
-        'is3D': true};
+        'is3D': true,
+        'colors': [  '#FF009E', '#56F89A']};
 
       var chartFive = new google.visualization.PieChart(document.getElementById('enrollment-chart'));
       chartFive.draw(dataFive, optionsFive);
@@ -349,7 +354,8 @@ window.addEventListener('load', function() {
       var optionsSix = {'title': 'Estudantes que superaram a meta por sprint',
         'width': 500,
         'height': 300,
-        'is3D': true};
+        'is3D': true,
+        'colors': [  '#FF009E', '#56F89A']};
 
       var chartSix = new google.visualization.PieChart(document.getElementById('achiv-chart'));
       chartSix.draw(dataSix, optionsSix);
