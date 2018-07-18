@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
     var dataRatings = data[city][opt]['ratings'];
     var arrayStudents = data[city][opt]['students'];
 
-    // INSCRIÇÕES
+    // INSCRIÇÕES //
     // VERIFICANDO A QUANTIDADE DE DESISTÊNCIAS
   
     var dropout = 0;
@@ -31,7 +31,7 @@ window.addEventListener('load', function() {
     var dropoutPorcentaje = document.getElementById('dropout-percent');
     dropoutPorcentaje.textContent = dropoutPercent;
 
-    // DESTAQUES
+    // DESTAQUES//
     var studentMeetTarget = 0;
 
     for (var i = 0; i < totalStudents; i++) {
